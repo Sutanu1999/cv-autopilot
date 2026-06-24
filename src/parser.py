@@ -28,6 +28,12 @@ You are a CV parser. Extract the following from the CV text below and return as 
   "keywords": []
 }}
 
+Rules for keywords:
+- Keep keywords short, single words or max 2 words
+- Focus on technical skills, tools, and technologies
+- Examples: "ETL", "Python", "PySpark", "Airflow", "PostgreSQL", "AWS", "Azure"
+- Do NOT include phrases like "ETL pipelines" or "Data ingestion"
+
 CV Text:
 {text}
 """
