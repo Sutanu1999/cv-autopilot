@@ -24,3 +24,9 @@ AI-powered bot that matches your CV to relevant job postings, optimizes it for A
 - Added `src/scraper.py` with Adzuna and RemoteOK integration
 - Keyword-based job fetching with relevance filtering
 - Supports India-based and remote job listings
+
+### v0.3 — Job Matcher
+- Added `src/matcher.py` with sentence-transformers similarity scoring
+- ATS keyword matching with matched/missing keyword breakdown
+- Jobs ranked by similarity score
+- Fixed keyword extraction to use short technical terms
