@@ -1,0 +1,7 @@
+pdfplumber
+python-dotenv
+streamlit
+sentence-transformers
+requests
+feedparser
+groq
