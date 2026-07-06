@@ -30,3 +30,13 @@ AI-powered bot that matches your CV to relevant job postings, optimizes it for A
 - ATS keyword matching with matched/missing keyword breakdown
 - Jobs ranked by similarity score
 - Fixed keyword extraction to use short technical terms
+
+### v0.4 — CV Rewriter & Cover Letter
+- Added `src/rewriter.py` with LLM-based CV rewriting
+- Incorporates missing ATS keywords naturally into existing experience
+- Auto-generates a tailored cover letter for each job
+
+### v0.5 — Proper File Output
+- CV saved as `.pdf` using reportlab
+- Cover letter saved as `.pdf` using reportlab
+- Files named after job title and company for easy tracking
