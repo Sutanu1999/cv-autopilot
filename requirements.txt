@@ -5,3 +5,5 @@ sentence-transformers
 requests
 feedparser
 groq
+python-docx
+reportlab
