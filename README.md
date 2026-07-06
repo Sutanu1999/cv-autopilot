@@ -40,3 +40,10 @@ AI-powered bot that matches your CV to relevant job postings, optimizes it for A
 - CV saved as `.pdf` using reportlab
 - Cover letter saved as `.pdf` using reportlab
 - Files named after job title and company for easy tracking
+
+### v0.6 — Streamlit UI
+- Added `src/main.py` with full Streamlit interface
+- Upload CV, fetch jobs, view ranked results with ATS and similarity scores
+- Rewrite CV and generate cover letter for any job with one click
+- Download rewritten CV and cover letter as PDF directly from UI
+- Fixed download button state persistence using session state
